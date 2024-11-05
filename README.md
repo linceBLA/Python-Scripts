@@ -1,11 +1,29 @@
 # Python-Scripts
+
+# QR Code Security Scanner using Virus Total
+
+In today’s digital world, QR codes are commonly used but can sometimes lead to malicious websites. To address this security concern, I developed a web-based solution that combines a Python script with an HTML front-end, hosted on PythonAnywhere. This tool allows users to scan QR codes directly through the web page. Upon scanning, the embedded URL is checked for safety using the VirusTotal API, which I access through my personal account. If the URL is deemed safe, it is opened in the browser. However, if the URL is flagged as potentially malicious, the page prevents access and alerts the user, ensuring that the scanned link is verified before being accessed.
+
+You can easily set up your own QR Code Security Scanner by using the Python script and HTML file I’ve provided. To get started, you'll need to:
+
+### 1. Create a free account on the VirusTotal API and obtain your personal API key.
+
+### 2. Sign up for a free account on PythonAnywhere and upload my two scripts: flask_app.py and index.html.
+
+### 3. In the flask_app.py script, make sure to replace the placeholder 'my API key' with your actual VirusTotal API key.
+
+### 4. Allow your browser to access the camera when prompted for QR code scanning. I recommend setting it to manually request permission each time for added control over security.
+
+The HTML file is quite basic, designed with functionality in mind rather than aesthetics. Feel free to customize and enhance the HTML to suit your needs. My primary goal is to provide a working tool, not to sell or promote it—so make it your own!
+
+
+
+
 # Accelerating the Mapping Phase of Pentesting with Python Scripts
 
 During my work as a pentester, I often have to attack large applications containing thousands of URLs. My goal is always to ensure I cover the maximum possible attack surface without missing any key elements, but time is a critical factor. As most of my contracts come with tight deadlines, I can't afford to spend excessive time on the mapping phase. Accuracy and efficiency are paramount.
 
 To address this, I developed a set of Python scripts to help streamline the mapping process, allowing me to quickly assess and target the right elements. Below are three key scripts that have significantly boosted my workflow and ensured I don’t overlook important vulnerabilities.
-
-## Python Scripts
 
 ### 1. `check-urls-HTTPresponseStatus.py`
 
