@@ -37,6 +37,5 @@ Burp Suite is one of my go-to tools for identifying vulnerabilities and analyzin
 
 The third script focuses on extracting user cookies from authenticated pages. This is particularly useful for understanding how cookies are created and for crafting new cookies for testing purposes. Additionally, the script allows other tools or scripts to use valid cookies from an active session, streamlining the testing of authenticated areas of the application.
 
----
 
 These scripts have become invaluable to me, allowing me to be more efficient during the mapping phase without sacrificing thoroughness. By automating repetitive tasks, I can dedicate more time to analyzing potential vulnerabilities and improving the overall security posture of the applications I test.
