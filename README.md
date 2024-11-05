@@ -8,9 +8,9 @@ You can easily set up your own QR Code Security Scanner by using the Python scri
 
 #### 1. Create a free account on the VirusTotal API and obtain your personal API key.
 
-#### 2. Sign up for a free account on PythonAnywhere and upload my two scripts: flask_app.py and index.html.
+#### 2. Sign up for a free account on PythonAnywhere and upload my two scripts: QRCODE-Scan_flask_app.py and QRCODE-Scan_index.html.
 
-#### 3. In the flask_app.py script, make sure to replace the placeholder 'my API key' with your actual VirusTotal API key.
+#### 3. In the QRCODE-Scan_flask_app.py script, make sure to replace the placeholder 'my API key' with your actual VirusTotal API key.
 
 #### 4. Allow your browser to access the camera when prompted for QR code scanning. I recommend setting it to manually request permission each time for added control over security.
 
